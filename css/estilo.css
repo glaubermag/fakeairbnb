@@ -1,4 +1,107 @@
-nav {
-    
-    background: grey;
+html, body {
+
+  width: 100%;
+  justify-content: center;
+  margin: 0 ;
 }
+
+nav {
+
+    background-color: #FF5A5F
+    ;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+
+.card-body {
+    height: 150px;
+    max-height: 150px;
+
+  }
+  
+  .property-type {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 10px;
+    
+  }
+  
+  .property-name {
+    color: #484848;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+
+  }
+  
+  .property-price {
+    color: #484848;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18px;
+
+
+  }
+  
+  img {
+    height: 250px;
+    width: 500px;
+  }
+
+  .col-md-4 {
+    background-color:lightgray;
+    box-shadow: 10px 10px 5px grey;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+margin-top: 20px;
+
+  }
+
+  footer {
+
+    background-color: #FF5A5F;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+    @media (max-width:1100px) {
+.container {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+    }
+  
+
+
+
+
